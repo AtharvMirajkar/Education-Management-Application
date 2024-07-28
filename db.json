@@ -1,0 +1,614 @@
+{
+  "todoItems": [
+    {
+      "name": "Fetch data from Json server ",
+      "dueDate": "2024-05-21",
+      "id": "4131"
+    },
+    {
+      "name": "Host your website on free platforms like github or firebase",
+      "dueDate": "2024-05-27",
+      "id": "e73b"
+    },
+    {
+      "id": "c85b",
+      "name": "Make a proper authentication",
+      "dueDate": "2024-05-29"
+    }
+  ],
+  "users": [
+    {
+      "id": "1afe",
+      "name": "Atharv Mirajkar",
+      "gender": "Male",
+      "address": "Kolhapur",
+      "contact": "8237888033"
+    },
+    {
+      "id": "89d4",
+      "name": "Prathamesh Patil",
+      "gender": "Male",
+      "address": "Kolhapur",
+      "contact": "9898985624"
+    },
+    {
+      "id": "e7da",
+      "name": "Shubham More",
+      "gender": "Male",
+      "address": "Latur",
+      "contact": "4598569878"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "854f",
+      "name": "Atharv Mirajkar",
+      "email": "atharvm@walstartechnologies.com",
+      "message": "I want product information"
+    },
+    {
+      "id": "d5cd",
+      "name": "Atharv",
+      "email": "admin@gmail.com",
+      "message": "I want to know the information about your website"
+    }
+  ],
+  "signupData": [
+    {
+      "id": "9be4",
+      "name": "Shubham",
+      "email": "test@g.com",
+      "password": "Test@123",
+      "repeatPassword": "Test@123",
+      "agreedToTerms": "on"
+    }
+  ],
+  "signinData": [],
+  "assignments": [
+    {
+      "section": "Math",
+      "title": "Dervatives",
+      "description": "Solve Exercise 4 from chapter 2",
+      "dueDate": "2024-06-11",
+      "id": "7242"
+    },
+    {
+      "section": "Chemistry",
+      "title": "Organic Chemistry",
+      "description": "write all the molecular formulas from chapter 2",
+      "dueDate": "2024-06-13",
+      "id": "8df3"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "d9f7",
+      "assignmentId": "7242",
+      "file": "blob:http://localhost:5173/bcfd79fd-3503-4f78-8734-bda6ace8bdde",
+      "userId": 1
+    },
+    {
+      "id": "cf07",
+      "assignmentId": "7242",
+      "file": "blob:http://localhost:5173/37f09b0c-bd89-4ad9-8d07-80873d371896",
+      "userId": "c5c1"
+    },
+    {
+      "id": "5b36",
+      "assignmentId": "8df3",
+      "file": "blob:http://localhost:5173/a733fc12-0d42-4abd-a08d-fae9823748cd",
+      "userId": "3393"
+    },
+    {
+      "id": "1b6c",
+      "assignmentId": "7242",
+      "file": "blob:http://localhost:5173/d04f7bb3-ed20-4fe1-9600-e1209a30710a",
+      "userId": "66697c42eed8d1fb47255e07"
+    },
+    {
+      "id": "bdc6",
+      "assignmentId": "7242",
+      "file": "blob:http://localhost:5173/ccc8dc74-2eda-4ac8-8a46-cbcaf50b1849",
+      "userId": "66697c42eed8d1fb47255e07"
+    },
+    {
+      "id": "de45",
+      "assignmentId": "8df3",
+      "file": "blob:http://localhost:5173/256e1481-145e-4e66-b978-2adcc5aebf9c",
+      "userId": "66697d46eed8d1fb47255e1b"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "5ccc",
+      "title": "Holiday",
+      "message": "Due to heavy rain on June 10, 2024, the college will be closed for 3 days.",
+      "role": "student"
+    },
+    {
+      "id": "0bac",
+      "title": "Final Year Result",
+      "message": "The Exam results of final year will be declared on 10th June 2024",
+      "role": "student"
+    },
+    {
+      "id": "6099",
+      "title": "Library Fees",
+      "message": "Pay your library fees on or before 15 June\n",
+      "role": "student"
+    },
+    {
+      "id": "00fc",
+      "title": "Important Meeting",
+      "message": "On 12th June, there will be a meeting in principal's office at 3pm sharp",
+      "role": "faculty"
+    },
+    {
+      "id": "82f1",
+      "title": "Bonus Salary",
+      "message": "All the faculty Members will receive bonus for their extraordinary performance",
+      "role": "faculty"
+    }
+  ],
+  "courses": [
+    {
+      "id": "fd59",
+      "name": "Data Structures and Algorithms",
+      "faculty": "Sargio Markina"
+    },
+    {
+      "id": "514c",
+      "name": "Computer Programming",
+      "faculty": "Raquel Mourio"
+    },
+    {
+      "id": "3945",
+      "name": "Machine Learning",
+      "faculty": "Olivia Willson"
+    },
+    {
+      "id": "988c",
+      "name": "Psychology",
+      "faculty": "Alicia Ceiara"
+    },
+    {
+      "id": "811a",
+      "name": "Computer Network",
+      "faculty": "Sargio Markina"
+    },
+    {
+      "id": "2f9d",
+      "name": "Core Java",
+      "faculty": "Raquel Mourio"
+    }
+  ],
+  "usersData": [
+    {
+      "fullName": "Main Admin",
+      "email": "admin@gmail.com",
+      "gender": "male",
+      "id": "c77f"
+    },
+    {
+      "username": "emily",
+      "password": "emily",
+      "role": "student",
+      "fullName": "Emily Johnson",
+      "email": "emily@gmail.com",
+      "gender": "female",
+      "id": "c5c1"
+    },
+    {
+      "username": "atharv",
+      "password": "admin@123",
+      "role": "admin",
+      "fullName": "Atharv Mirajkar",
+      "email": "atharvm@walstartech.com",
+      "gender": "male",
+      "id": "7cb7"
+    },
+    {
+      "fullName": "Emma Watson new",
+      "email": "emma@gmail.com",
+      "gender": "female",
+      "id": "0bf7"
+    },
+    {
+      "username": "professor",
+      "password": "professor",
+      "role": "faculty",
+      "fullName": "Sargio Markina",
+      "email": "sargio@gmail.com",
+      "gender": "male",
+      "id": "9aac"
+    },
+    {
+      "username": "berlin",
+      "password": "berlin",
+      "role": "student",
+      "fullName": "Andress de Fonollosa",
+      "email": "berlin@gmail.com",
+      "gender": "male",
+      "id": "3393"
+    },
+    {
+      "fullName": "Silene Oliveria Tokyo",
+      "email": "tokyo@gmail.com",
+      "gender": "female",
+      "id": "0c1f"
+    },
+    {
+      "id": "b0ac",
+      "username": "raquel",
+      "password": "raquel",
+      "role": "faculty",
+      "fullName": "Raquel Mourio",
+      "email": "raquel@gmail.com",
+      "gender": "female"
+    },
+    {
+      "username": "alicia",
+      "password": "alicia",
+      "role": "faculty",
+      "fullName": "Alicia Ceiara",
+      "email": "aliciaceiara@gmail.com",
+      "gender": "female",
+      "id": "def0"
+    },
+    {
+      "id": "8766",
+      "username": "olivia",
+      "password": "olivia",
+      "role": "faculty",
+      "fullName": "Olivia Willson",
+      "email": "oliviawilllson@gmail.com",
+      "gender": "female"
+    },
+    {
+      "id": "0a40",
+      "username": "tokyo",
+      "password": "tokyo",
+      "role": "student",
+      "fullName": "Seliene Oliviara ",
+      "email": "tokyo@gmail.com",
+      "gender": "female"
+    },
+    {
+      "fullName": "Emma Watson new",
+      "email": "emma@gmail.com",
+      "gender": "female",
+      "id": "1470"
+    },
+    {
+      "username": "admin",
+      "password": "admin@123",
+      "role": "admin",
+      "fullName": "New Admin",
+      "email": "admin@gmail.com",
+      "gender": "female",
+      "id": "9153"
+    },
+    {
+      "id": "15da",
+      "username": "emma",
+      "password": "emma",
+      "role": "student",
+      "fullName": "Emma Watson",
+      "email": "emma@gmail.com",
+      "gender": "female"
+    },
+    {
+      "id": "7483",
+      "username": "rio",
+      "password": "rio",
+      "role": "student",
+      "fullName": "Animal Cortes",
+      "email": "rayo@gmail.com",
+      "gender": "male"
+    }
+  ],
+  "student_schedule": [
+    {
+      "id": "5999",
+      "time": "9:00 am - 11:00 am",
+      "subject": "Data Structures and Algorithms",
+      "teacher": "Sargio Markina"
+    },
+    {
+      "id": "cc53",
+      "time": "11:00 am - 11:30 am",
+      "subject": "break",
+      "teacher": "--"
+    },
+    {
+      "id": "1edb",
+      "time": "11:30 am - 1:30 pm",
+      "subject": "Computer Programming",
+      "teacher": "Raquel Mourio"
+    },
+    {
+      "id": "7e9a",
+      "time": "1:30 pm - 2:15 pm",
+      "subject": "break",
+      "teacher": "--"
+    },
+    {
+      "id": "5bc8",
+      "time": "2:15 pm - 4:15 pm",
+      "subject": "Machine Learning",
+      "teacher": "Olivia Willson"
+    },
+    {
+      "id": "e66c",
+      "time": "4:15 pm - 5:00 pm",
+      "subject": "Psychology",
+      "teacher": "Alicia Ceiara"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "2322",
+      "date": "2024-06-13",
+      "schedules": [
+        {
+          "time": "11:30 am - 1:30 pm",
+          "subject": "Computer Programming",
+          "teacher": "Raquel Mourio"
+        }
+      ],
+      "students": [
+        {
+          "id": "c5c1",
+          "attendance": "absent"
+        },
+        {
+          "id": "3393",
+          "attendance": "present"
+        },
+        {
+          "id": "0a40",
+          "attendance": "absent"
+        },
+        {
+          "id": "15da",
+          "attendance": "present"
+        },
+        {
+          "id": "7483",
+          "attendance": "absent"
+        }
+      ]
+    },
+    {
+      "id": "8ebf",
+      "date": "2024-06-13",
+      "schedules": [
+        {
+          "time": "9:00 am - 11:00 am",
+          "subject": "Data Structures and Algorithms",
+          "teacher": "Sargio Markina"
+        }
+      ],
+      "students": [
+        {
+          "id": "c5c1",
+          "attendance": "absent"
+        },
+        {
+          "id": "3393",
+          "attendance": "present"
+        },
+        {
+          "id": "0a40",
+          "attendance": "present"
+        },
+        {
+          "id": "15da",
+          "attendance": "present"
+        },
+        {
+          "id": "7483",
+          "attendance": "absent"
+        }
+      ]
+    },
+    {
+      "id": "82ce",
+      "date": "2024-06-13",
+      "schedules": [
+        {
+          "time": "4:15 pm - 5:00 pm",
+          "subject": "Psychology",
+          "teacher": "Alicia Ceiara"
+        }
+      ],
+      "students": [
+        {
+          "id": "c5c1",
+          "attendance": "present"
+        },
+        {
+          "id": "3393",
+          "attendance": "absent"
+        },
+        {
+          "id": "0a40",
+          "attendance": "absent"
+        },
+        {
+          "id": "15da",
+          "attendance": "present"
+        },
+        {
+          "id": "7483",
+          "attendance": "present"
+        }
+      ]
+    },
+    {
+      "id": "8e40",
+      "date": "2024-06-12",
+      "schedules": [
+        {
+          "time": "11:30 am - 1:30 pm",
+          "subject": "Computer Programming",
+          "teacher": "Raquel Mourio"
+        }
+      ],
+      "students": [
+        {
+          "id": "c5c1",
+          "attendance": "absent"
+        },
+        {
+          "id": "3393",
+          "attendance": "present"
+        },
+        {
+          "id": "0a40",
+          "attendance": "absent"
+        },
+        {
+          "id": "15da",
+          "attendance": "present"
+        },
+        {
+          "id": "7483",
+          "attendance": "absent"
+        }
+      ]
+    },
+    {
+      "id": "23e1",
+      "date": "2024-06-12",
+      "schedules": [
+        {
+          "time": "4:15 pm - 5:00 pm",
+          "subject": "Psychology",
+          "teacher": "Alicia Ceiara"
+        }
+      ],
+      "students": [
+        {
+          "id": "c5c1",
+          "attendance": "present"
+        },
+        {
+          "id": "3393",
+          "attendance": "absent"
+        },
+        {
+          "id": "0a40",
+          "attendance": "present"
+        },
+        {
+          "id": "15da",
+          "attendance": "absent"
+        },
+        {
+          "id": "7483",
+          "attendance": "present"
+        }
+      ]
+    },
+    {
+      "id": "c811",
+      "date": "2024-06-12",
+      "schedules": [
+        {
+          "time": "9:00 am - 11:00 am",
+          "subject": "Data Structures and Algorithms",
+          "teacher": "Sargio Markina"
+        }
+      ],
+      "students": [
+        {
+          "id": "c5c1",
+          "attendance": "present"
+        },
+        {
+          "id": "3393",
+          "attendance": "present"
+        },
+        {
+          "id": "0a40",
+          "attendance": "present"
+        },
+        {
+          "id": "15da",
+          "attendance": "present"
+        },
+        {
+          "id": "7483",
+          "attendance": "present"
+        }
+      ]
+    },
+    {
+      "id": "29ca",
+      "date": "2024-06-11",
+      "schedules": [
+        {
+          "time": "9:00 am - 11:00 am",
+          "subject": "Data Structures and Algorithms",
+          "teacher": "Sargio Markina"
+        }
+      ],
+      "students": [
+        {
+          "id": "c5c1",
+          "attendance": "present"
+        },
+        {
+          "id": "3393",
+          "attendance": "present"
+        },
+        {
+          "id": "0a40",
+          "attendance": "absent"
+        },
+        {
+          "id": "15da",
+          "attendance": "present"
+        },
+        {
+          "id": "7483",
+          "attendance": "absent"
+        }
+      ]
+    },
+    {
+      "id": "bd17",
+      "date": "2024-06-14",
+      "schedules": [
+        {
+          "time": "9:00 am - 11:00 am",
+          "subject": "Data Structures and Algorithms",
+          "teacher": "Sargio Markina"
+        }
+      ],
+      "students": [
+        {
+          "id": "c5c1",
+          "attendance": "present"
+        },
+        {
+          "id": "3393",
+          "attendance": "present"
+        },
+        {
+          "id": "0a40",
+          "attendance": "present"
+        },
+        {
+          "id": "15da",
+          "attendance": "present"
+        },
+        {
+          "id": "7483",
+          "attendance": "present"
+        }
+      ]
+    }
+  ]
+}

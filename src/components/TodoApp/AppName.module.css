@@ -1,0 +1,10 @@
+.todoHeading {
+  font-weight: 500;
+  font-size: 45px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: rgb(15, 15, 172);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}

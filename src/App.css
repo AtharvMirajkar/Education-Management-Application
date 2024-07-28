@@ -1,0 +1,109 @@
+a {
+  color: black;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.face-icon {
+  color: rgb(9, 82, 150);
+}
+
+.google-icon {
+  color: rgb(175, 35, 35);
+}
+
+.header {
+  margin-bottom: 65px;
+}
+
+/* li {
+  list-style: none;
+} */
+
+.my-btn {
+  background-color: #6dabe4;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 12px 36px;
+}
+
+.my-btn2 {
+  background-color: #6dabe4;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 8px 21px;
+}
+
+.my-btn2:hover {
+  background-color: #499deb;
+  color: #ffffff;
+}
+
+.my-btn:hover {
+  background-color: #499deb;
+  color: #ffffff;
+}
+
+.margin-top-bottom {
+  margin-block: 80px;
+  padding: 30px;
+}
+
+.twiter-icon {
+  color: rgb(4, 199, 248);
+}
+
+/* Home page  */
+
+.app-container {
+  display: flex;
+}
+
+.content {
+  width: 100%;
+}
+
+.sidebar {
+  min-height: 800px;
+}
+
+.text-reset {
+  text-decoration: none;
+}
+
+/* To do App  */
+
+.todo-app {
+  background-image: url("https://images.unsplash.com/photo-1503551723145-6c040742065b-v2?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  width: 100vw;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .border-remove {
+    border: none;
+    padding-bottom: 40px;
+  }
+}
+
+.animated-text {
+  animation: moveUpDown 3s infinite; /* Apply the animation */
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
